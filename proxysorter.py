@@ -86,7 +86,7 @@ def service_check(pip):
 
 
 if True:
-    config=fetch_config('https://raw.githubusercontent.com/fsmaster/mosh-config/main/mosh-config.yml')
+    config=fetch_config('https://raw.githubusercontent.com/StopFraud/metadata/main/endpoints.yml')
     print (config)
     y=yaml.safe_load(config)
     l=(len(y))
